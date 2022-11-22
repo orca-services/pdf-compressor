@@ -1,9 +1,3 @@
-# Shell script to automatically compress huge amounts of PDF's on a Linux server.
-# After you added the script in your desired directory, it will loop through all existing direcrories and 
-# find all PDF files. The Script will then loop through all of the files and compress them. 
-# After the compression was successful, the script will delete the older large files so your file names don't change.
-# Also every step of the script will be logged in a seperate file in the same directory to give you all the information you need.
-
 # Variables and preparation
 {
   count=0
